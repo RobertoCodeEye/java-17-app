@@ -36,5 +36,6 @@ jobs:
           shortCommitId="GitHub-"${GITHUB_SHA::8}
           currentDirectory=$PWD
 
-          ./iris-scanner-cli -s $currentDirectory -r $shortCommitId -sensitivity 'strong'
+          ./iris-scanner-cli -s $currentDirectory -r $shortCommitId -sensitivity 'medium'
+
 
